@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="Home.css">
+    <link rel="stylesheet" href="mobile.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Jacquard+12&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <!-- Navigation bar -->
+    <nav class="navbar">
+      <div class="logo">
+        Bishal Gurung
+      </div>
+    <div class="bar" id="bar">
+      <button class="list" id="list"><i class="fa-solid fa-bars"></i></button>
+      <div class="bar_list" id="bar_list">
+        <ul >
+          <li><a href="Home.html">Home</a></li>
+          <li><a href="About.html">About</a></li>
+          <li><a href="Service.html">Service</a></li>
+          <li><a href="Contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>    
+    </nav>
+    <section class="mid">
+      <form id="form" class="mid_body">
+
+        <p>Enter your details</p>
+       
+        <label for="Name">Username</label>
+        <input type="text" id="Name" placeholder="Name" required/>
+         
+        <label for="Email">Email</label>
+        <input type="email" id="Email" placeholder="Email" required/>
+         
+        <label for="Purpose">Purpose</label>
+        <select name="Purpose" id="Purpose">
+          <option value="Web">Web design</option>
+          <option value="Game">Game development</option>
+          <option value="System">System Design</option>
+        </select>
+
+        <label for="Message">Message</label>
+        <textarea type="text" id="Message" > </textarea>
+        
+        <button type="submit" class="button" id="button">Submit</button>
+      </form>
+      </section>
+      <script src="index.js"></script>
+  </body>
+<script src="index.js"></script>
+</html>
