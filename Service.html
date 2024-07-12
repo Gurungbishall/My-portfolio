@@ -4,7 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
     <link rel="stylesheet" href="Home.css" />
     <link rel="stylesheet" href="mobile.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -17,49 +20,51 @@
   <body>
     <!-- Navigation bar -->
     <nav class="navbar">
-      <div class="logo">
-        Bishal Gurung
+      <div class="logo">Bishal Gurung</div>
+      <div class="bar" id="bar">
+        <button class="list" id="list"><i class="fa-solid fa-bars"></i></button>
+        <div class="bar_list" id="bar_list">
+          <ul>
+            <li><a href="Home.html">Home</a></li>
+            <li><a href="About.html">About</a></li>
+            <li><a href="Service.html">Service</a></li>
+            <li><a href="Contact.html">Contact</a></li>
+          </ul>
+        </div>
       </div>
-    <div class="bar" id="bar">
-      <button class="list" id="list"><i class="fa-solid fa-bars"></i></button>
-      <div class="bar_list" id="bar_list">
-        <ul >
-          <li><a href="Home.html">Home</a></li>
-          <li><a href="About.html">About</a></li>
-          <li><a href="Service.html">Service</a></li>
-          <li><a href="Contact.html">Contact</a></li>
-        </ul>
-      </div>
-    </div>    
     </nav>
-    <section class="Scontainer">
-      <div>
-        <p class="Service_header">Service</p>
-      </div>
-      <div class="Service">
-        <div class="item">
-          <p class="item_header">Web Design</p>
-          <p class="item_body">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-          </p>
-        </div>
-        <div class="item">
-          <p class="item_header">Game Developer</p>
-        </div>
-        <div class="item">
-          <p class="item_header">System Developer</p>
-        </div>
-        <div class="item">
-          <p class="item_header">UX/Ul design</p>
-        </div>
-        <div class="item">
-          <p class="item_header">Product design</p>
-        </div>
-        <div class="item">
-          <p class="item_header">App design</p>
+    <!-- Service -->
+    <section class="Service">
+      <div class="Service_top">
+        <div class="Service_top_header">What I do</div>
+        <div class="Service_top_body">
+          <div>
+            <span>Ul design</span>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non
+              natus voluptatibus nemo accusantium mollitia tempore ducimus,
+              dignissimos praesentium quas
+            </p>
+          </div>
+          <div>
+            <span>Web Development</span>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non
+              natus voluptatibus nemo accusantium mollitia tempore ducimus,
+              dignissimos praesentium quas
+            </p>
+          </div>
+          <div>
+            <span>App Development</span>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non
+              natus voluptatibus nemo accusantium mollitia tempore ducimus,
+              dignissimos praesentium quas
+            </p>
+          </div>
         </div>
       </div>
     </section>
   </body>
-<script src="index.js"></script>
+  <script src="index.js"></script>
 </html>
