@@ -1,4 +1,4 @@
-@media (min-width: 1025px) {
+
     * {
         margin: 0;
         padding: 0;
@@ -144,10 +144,21 @@
         scale: 1.3;
     }
 
+    footer {
+       position: fixed;
+       bottom: 0;
+       width: 100%;
+       height: 50px;
+       background-color: aqua;
+       overflow-x:auto;
+       display: flex;
+
+    }
+
     /*About*/
     .About {
         background-color: orange;
-        height: 100vh;
+        padding: 20px;
     }
 
     .About_top {
@@ -354,4 +365,3 @@
     }
 
 
-}
