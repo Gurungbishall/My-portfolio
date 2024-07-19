@@ -71,6 +71,28 @@
     transition: 0.5s ease-in;
 }
 
+/*Footer*/
+
+footer {
+    position: sticky;
+    bottom: 0;
+    width: 100%;
+    background-color: aqua;
+    overflow-x: auto;
+    display: flex;
+    align-items: center;
+    padding: 20px 100px;
+    justify-content: space-between;
+}
+
+
+.footer_left,
+.footer_right {
+    display: flex;
+    gap: 20px;
+    font-weight: 600;
+}
+
 /* Home */
 .container {
     background-color: orange;
@@ -143,16 +165,6 @@ img {
     scale: 1.3;
 }
 
-footer {
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    height: 50px;
-    background-color: aqua;
-    overflow-x: auto;
-    display: flex;
-
-}
 
 /*About*/
 .About {
