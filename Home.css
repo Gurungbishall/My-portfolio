@@ -18,8 +18,6 @@
 }
 
 .logo {
-    position: absolute;
-    left: 0;
     color: black;
     font-weight: bolder;
     padding-left: 100px;
@@ -34,8 +32,6 @@
 }
 
 .bar {
-    position: absolute;
-    right: 0;
     padding-right: 100px;
 }
 
@@ -57,6 +53,7 @@
     font-size: 20px;
     font-weight: bolder;
     list-style-type: none;
+    cursor: pointer;
 }
 
 .navbar div li a {
@@ -105,7 +102,6 @@ footer {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    position: relative;
 }
 
 .text {
@@ -122,6 +118,8 @@ footer {
 img {
     height: 400px;
     width: 400px;
+    border-radius: 50px;
+    box-shadow: 5px 6px 20px black, -5px -6px 20px black;
 }
 
 .Mid button {
@@ -176,6 +174,7 @@ img {
     display: flex;
     justify-content: center;
     padding-top: 40px;
+    gap: 50px;
 }
 
 .About_me {
@@ -183,14 +182,13 @@ img {
 }
 
 .About_me_pic {
-    border: 2px solid black;
     width: 300px;
     height: 300px;
+    border-radius: 20px;
+    box-shadow: 2px 2px -10px black, -2px -2px -10px black;
 }
 
-.About_me {
-    margin-left: 20px;
-}
+
 
 .About_me_header {
     font-size: 28px;
@@ -201,6 +199,7 @@ img {
 .About_me p {
     font-size: 18px;
     margin-top: 10px;
+    text-align: justify;
 }
 
 .I_am_good_at {
@@ -224,10 +223,12 @@ img {
     color: white;
 }
 
-.About_me button {
-    width: 200px;
-    height: 35px;
+.CV {
+    display: inline-block;
+    height: 40px;
+    padding: 10px;
     margin-top: 20px;
+    text-decoration: none;
     background-color: rgb(0, 89, 255);
     font-size: 17px;
     font-weight: bold;
@@ -235,10 +236,9 @@ img {
     border-radius: 15px;
     cursor: pointer;
     transition: 1s;
-
 }
 
-.About_me button:hover {
+.CV:hover {
     scale: 1.1;
     border-color: black;
 }
@@ -256,18 +256,31 @@ img {
     gap: 20px;
 }
 
+.Education_header,
+.Work_experience_header {
+    font-size: 25px;
+    font-weight: bolder;
+}
+
 .Where_I_study_list,
 .Where_I_worked_list {
     width: 600px;
     border: 2px solid black;
     padding: 10px;
     font-size: 18px;
+    border-radius: 10px;
 }
 
 .Where_I_study_list span,
 .Where_I_worked_list span {
     font-size: 20px;
     font-weight: bold;
+    color: rgba(115, 96, 242);
+}
+
+.Where_I_study_list_date,
+.Where_I_worked_list_date {
+    font-size: 12px;
     color: rgba(115, 96, 242);
 }
 
@@ -307,7 +320,8 @@ img {
     border: 2px solid black;
     width: 400px;
     padding: 30px;
-    box-shadow: 2px 2px 100px 5px grey;
+    border-radius: 20px;
+    box-shadow: 2px 2px -10px black;
 }
 
 .Service_top_body span {
@@ -335,7 +349,7 @@ select {
     margin: 8px 0;
 }
 
-.mid {
+.Contact_body {
     display: flex;
     padding-top: 100px;
     align-items: center;
@@ -354,13 +368,7 @@ select {
     padding-bottom: 20px;
     font-weight: bold;
 }
-
-.form label {
-    font-size: large;
-    font-weight: 900;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-
+    
 .form button {
     height: 40px;
     width: 200px;
