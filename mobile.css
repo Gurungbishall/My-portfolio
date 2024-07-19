@@ -71,7 +71,7 @@
         font-size: 30px;
     }
 
-    img {
+    .home_img img {
         height: 100px;
         width: 100px;
         border-radius: 10px;
@@ -181,6 +181,9 @@
     }
 
     /* service */
+    .Service {
+        height: 130vh;
+    }
 
     .Service_top_body {
         display: grid;
@@ -199,6 +202,62 @@
     .Service_top_body p {
         font-size: 12px;
 
+    }
+
+    .Service_bottom {
+        gap: 40px;
+        padding-top: 40px;
+    }
+
+    .Service_bottom_header {
+        font-size: 20px;
+    }
+
+    .Service_bottom_body {
+        gap: 0px;
+    }
+
+    .Service_bottom_project {
+        gap: 0px;
+        width: 280px;
+        height: 300px;
+    }
+
+    .Service_bottom_project::-webkit-scrollbar {
+        display: none;
+    }
+
+    .Service_bottom_project {
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+    }
+
+    .project {
+        margin: 0 20px;
+        padding: 20px;
+        height: 300px;
+        width: 220px;
+    }
+
+    .project span {
+        font-size: 12px;
+    }
+
+    .project img {
+        height: 100px;
+        padding: 20px 50px;
+    }
+
+    .project p {
+        font-size: 10px;
+        padding-top: 5px;
+    }
+
+    .project a {
+        margin: 10px 70px;
+        height: 30px;
+        width: 60px;
+        font-size: 10px;
     }
 
     /*Contact*/

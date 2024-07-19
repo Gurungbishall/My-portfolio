@@ -115,7 +115,7 @@ footer {
     font-weight: bolder;
 }
 
-img {
+.home_img img {
     height: 400px;
     width: 400px;
     border-radius: 50px;
@@ -307,7 +307,7 @@ img {
 }
 
 .Service_top_header {
-    font-size: 20px;
+    font-size: 30px;
     font-weight: bolder;
 }
 
@@ -339,6 +339,98 @@ img {
     transition: 1s;
 }
 
+.Service_bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    padding-top: 40px;
+}
+
+.Service_bottom_header {
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.Service_bottom_body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.Service_bottom_project {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    overflow-x: scroll;
+    width: 600px;
+    height: 500px;
+}
+
+.Service_bottom_project::-webkit-scrollbar {
+    display: none;
+}
+
+.Service_bottom_project {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.project {
+    margin: 0 20px;
+    flex: none;
+    padding: 40px;
+    height: 450px;
+    width: 550px;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+
+.project span {
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.project img {
+    height: 200px;
+    padding: 20px 100px;
+}
+
+.project p {
+    padding-top: 10px;
+    text-align: justify;
+}
+
+.project a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 180px;
+    height: 40px;
+    width: 80px;
+    font-size: 20px;
+    font-weight: 900;
+    color: black;
+    border-radius: 20px;
+    background-color: green;
+    text-decoration: none;
+
+}
+
+.project a:hover {
+    transition: 1.1s;
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+}
+
+.left,
+.right {
+    cursor: pointer;
+}
+
 /*Contact*/
 input[type=text],
 input[type=email],
@@ -368,7 +460,7 @@ select {
     padding-bottom: 20px;
     font-weight: bold;
 }
-    
+
 .form button {
     height: 40px;
     width: 200px;
